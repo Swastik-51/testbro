@@ -13,11 +13,15 @@ st.title("CrediHire AI – Credible hiring through AI.")
 st.markdown("### Your AI-powered shield against job scams. Apply with confidence!")
 
 # ---------------------- Load Model + Vectorizer ----------------------
+import os
+MODEL_DIR = os.path.join(os.path.dirname(__file__), "models")
+
 @st.cache_resource
 def load_resources():
-    vectorizer = joblib.load("models/ahirr_vectorizer.pkl")
-    model = joblib.load("models/ahirr_model.pkl")
+    vectorizer = joblib.load(os.path.join(MODEL_DIR, "ahirr_vectorizer.pkl"))
+    model = joblib.load(os.path.join(MODEL_DIR, "ahirr_model.pkl"))
     return vectorizer, model
+
 
 vectorizer, model = load_resources()
 
