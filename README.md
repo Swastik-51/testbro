@@ -190,6 +190,7 @@ CrediHireAI is a machine learning-powered API that detects **fraudulent job post
   "requirements": "Python, ML",
   "benefits": "Remote work"
 }
+```
 
 ## 🎥 Demo Video
 https://youtu.be/9lRWjJRMa6E
