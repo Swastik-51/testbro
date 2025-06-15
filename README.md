@@ -142,6 +142,37 @@ CredHireAI/
 ```
 - All model training, evaluation, and comparison details are available in the `jupyter notebook/` folder.
 
+# 🛡️ CrediHireAI - Job Fraud Detection API
+
+CrediHireAI is a machine learning-powered API that detects **fraudulent job postings** and helps protect job seekers from scams.
+
+🔗 Live: [credihireai.onrender.com](https://credihireai.onrender.com)
+
+---
+
+## 🚀 Features
+
+- Real-time fraud prediction
+- XGBoost + TF-IDF + PCA
+- Clean FastAPI backend
+- Ready for integration with frontends (Streamlit, etc.)
+
+---
+
+## 📌 API Usage
+
+### `POST /predict`
+
+**Request:**
+```json
+{
+  "title": "Software Engineer",
+  "description": "Join our fast-growing tech team...",
+  "company_profile": "XYZ Corp",
+  "requirements": "Python, ML",
+  "benefits": "Remote work"
+}
+
 
 ## 🎥 Demo Video
 https://youtu.be/9lRWjJRMa6E
