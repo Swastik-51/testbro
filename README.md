@@ -1,20 +1,32 @@
 # 🚨 CredHire AI: Job Fraud Detection System
 
+[![Python](https://img.shields.io/badge/Built%20With-Python-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Deploy-Render](https://img.shields.io/badge/Deployed%20on-Render-46a2f1?logo=render)](https://credihireai.onrender.com)
+
+---
+
 ## 📊 Project Overview
-CredHire AI is an intelligent system designed to detect fraudulent job postings using machine learning. This project helps protect job seekers from potential scams by analyzing job listings and providing fraud probability scores before they apply. Working application ---> https://cred-hire-ai.streamlit.app/ 
+CredHire AI is a machine learning-based system that detects **fraudulent job postings** and protects job seekers from scams. It analyzes key job listing details and classifies them as either genuine or fraudulent, along with a confidence score.
 
-## 🎥 Demo Video
-https://youtu.be/9lRWjJRMa6E
+🔗 **Live App**: [Streamlit Dashboard](https://cred-hire-ai.streamlit.app/)  
+📡 **API Endpoint**: [FastAPI on Render](https://credihireai.onrender.com)  
+🎥 **Demo Video**: [YouTube Demo](https://youtu.be/9lRWjJRMa6E)
 
-## Working app
-https://cred-hire-ai.streamlit.app/
+---
 
 ## 🎯 Key Features
-- **Binary Classification Model**: Predicts whether a job posting is genuine or fraudulent
-- **Interactive Dashboard**: Visualizes fraud probabilities and insights
-- **CSV Upload Support**: Process any job posting dataset in CSV format
-- **Fraud Probability Analysis**: Provides detailed risk assessment for each job posting
-- **Visual Analytics**: Includes histograms, pie charts, and suspicious listings analysis
+
+- 🧠 **Real-time job fraud detection**
+- 📈 **Confidence score with every prediction**
+- 📂 **CSV upload support for batch processing**
+- 📊 **Interactive charts for analysis**
+- 📤 **Email alert system** (in development)
+- 💬 **SHAP explanations** for interpretability (coming soon)
+
+---
 
 ## 🛠️ Technologies Used
 - **Python**: Core programming language
