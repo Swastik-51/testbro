@@ -30,7 +30,7 @@ with st.sidebar:
     st.title("Upload Job Listings")
     uploaded_file = st.file_uploader("Choose CSV File", type=["csv"])
     st.markdown("---")
-    st.caption("Built with love using ML and Streamlit")
+    st.caption("Built by Ahir Barman Maji and Swastik Sengupta")
 
 # ---------------------- CSV-Based Analysis ----------------------
 if uploaded_file:
@@ -146,13 +146,13 @@ if uploaded_file:
                 msg = MIMEMultipart()
                 msg['From'] = "scamjobdetection176@gmail.com"
                 msg['To'] = user_email
-                msg['Subject'] = "FraudScan Report - Suspicious Job Listings"
+                msg['Subject'] = "CrediHire AI Report - Suspicious Job Listings"
 
                 body = f"""
                 <h3>Dear User,</h3>
                 <p>Here are the job listings flagged as <b>fraudulent</b>:</p>
                 {html_table}
-                <p>Stay safe,<br><b>FraudScan</b></p>
+                <p>Stay safe,<br><b>Team CrediHire</b></p>
                 """
                 msg.attach(MIMEText(body, 'html'))
 
