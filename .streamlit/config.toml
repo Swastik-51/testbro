@@ -1,0 +1,5 @@
+[server]
+headless = true
+
+[tooling]
+use_uv = false
